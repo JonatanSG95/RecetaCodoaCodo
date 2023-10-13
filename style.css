@@ -1,0 +1,122 @@
+:root{
+    --main-color: #163d30;
+}
+
+
+
+body{
+    background-color: rgb(241, 221, 166);
+    background-image: linear-gradient(rgba(253, 253, 255, 0.6),rgba(255, 255, 255, 0.6)), url(img/cocina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#principal{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#comida {
+    background-color: var(--main-color);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#comida img{
+    margin: auto 100px;
+    width: auto;
+    height: 450px;
+}
+
+#comida h2{
+    text-decoration-line: doble;
+    margin: auto 100px;
+    color: rgb(201, 206, 206);
+}
+
+#ingredientes{
+    width: 22%;
+    height: auto;
+    margin: 25px;
+    background-color: white;
+    border: 5px solid var(--main-color);
+}
+
+#ingredientes li{
+    list-style-image: url('img/vegetales.jpg');
+    margin: 10px;
+}
+
+#preparacion{
+    width: 60%;
+    height: 100%;
+    margin: 25px;
+    background-color: white;
+    border: 5px solid var(--main-color);
+}
+
+#preparacion li{
+    list-style-type: decimal-leading-zero;
+}
+
+#titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#masRecetas {
+    border-top: 5px solid var(--main-color);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#QuienesSomos {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border: 5px solid var(--main-color);
+}
+
+#QueHacemos {
+    margin-top: 30px;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    border: 5px solid var(--main-color);
+}
+
+#Ejemplo {
+    margin: 30px;
+    padding: 50px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 5px solid var(--main-color);
+    display: block;
+    justify-content: center;
+}
+
+#ListaRecetas img{
+    width: 50%;
+}
+
+.card-img-overlay {
+    width: 50%;
+    margin-left: 50%;
+}
+
+#ListaRecetas {
+    padding: 15px;
+}
